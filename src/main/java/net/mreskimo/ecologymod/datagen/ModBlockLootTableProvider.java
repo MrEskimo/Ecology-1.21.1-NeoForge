@@ -33,7 +33,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-
+        dropSelf(EcologicalBlocks.BANDED_IRON.get());
+        dropSelf(EcologicalBlocks.RED_MOSS_BLOCK.get());
+        dropSelf(EcologicalBlocks.ORANGE_MOSS_BLOCK.get());
+        dropSelf(EcologicalBlocks.YELLOW_MOSS_BLOCK.get());
+        dropSelf(EcologicalBlocks.WHITE_ICE.get());
      }
 
     @Override

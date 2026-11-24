@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.SweetBerryBushBlock;
 import net.minecraft.world.level.block.TallGrassBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.mreskimo.ecologymod.EcologyMod;
+import net.mreskimo.ecologymod.blocks.EcologicalBlocks;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -24,6 +25,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem(EcologicalBlocks.BANDED_IRON);
+        blockWithItem(EcologicalBlocks.RED_MOSS_BLOCK);
+        blockWithItem(EcologicalBlocks.ORANGE_MOSS_BLOCK);
+        blockWithItem(EcologicalBlocks.YELLOW_MOSS_BLOCK);
+        blockWithItem(EcologicalBlocks.WHITE_ICE);
 
     }
 
